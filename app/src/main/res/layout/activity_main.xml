@@ -6,13 +6,286 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <GridLayout
+        android:id="@+id/grid_Layout"
+        android:layout_width="358dp"
+        android:layout_height="514dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="84dp"
+        android:columnCount="5"
+        android:rowCount="6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/editTextText41"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText42"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText43"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText44"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText45"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText46"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText47"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText48"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText54"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText55"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText49"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText50"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText51"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText52"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText53"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText56"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText57"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText58"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText59"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText60"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText8"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText34"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText35"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText36"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText37"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText38"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText39"
+            android:layout_width="70dp"
+            android:layout_height="86dp"
+            android:ems="10"
+            android:inputType="text" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/add_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:text="Add Word"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clear_button" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="monospace"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid_Layout" />
+
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="monospace"
+        android:text="Restart"
+        app:layout_constraintStart_toEndOf="@+id/clear_button"
+        app:layout_constraintTop_toBottomOf="@+id/grid_Layout" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="monospace"
+        android:text="Clear"
+        app:layout_constraintStart_toEndOf="@+id/submit_button"
+        app:layout_constraintTop_toBottomOf="@+id/grid_Layout" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:background="#3F51B5"
+        android:fontFamily="serif-monospace"
+        android:text="Wordy"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
